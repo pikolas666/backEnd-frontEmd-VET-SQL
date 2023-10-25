@@ -24,16 +24,22 @@
     </header>
     <hr>
     <main>
-        <section class="list-section">
-            <div class="list">PET LIST</div>
-            <a href="add-pet.html"><button id="add-btn" class="addBtn">ADD PET</button></a>
+        <div class="filter-display">Display:
+            <button id="logs-filter" class="filter-button">LOGS &#10004;</button>
+            <button id="prescriptions-filter" class="filter-button">PRESCRIPTIONS &#10004;</button></div>
+            
+        <section id="list-section"class="list-section">
+            <div id="list" class="list"></div>
+            <div class="button-wrapper">
+             <a href="add-prescription.html"><button id="add-prescription-btn" class="add-prescription-btn">ADD PRESCRIPTION</button></a>
+             <a href="add-log.html"><button id="add-btn" class="add-btn">ADD LOG</button></a>
+            </div>
         </section>
         <div id="product-wrapper" class="product-wrapper"></div>
         <div id="message" class="message"></div>
-
     </main>
     <footer>Copyright &copy VetBee 2023 All rights reserved </footer>
 
-    <script type="module" src="index.js"></script>
+    <script type="module" src="log.js"></script>
 </body>
 </html>

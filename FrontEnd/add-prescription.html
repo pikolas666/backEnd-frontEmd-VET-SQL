@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Add Medication</title>
     <link rel="stylesheet" href="/FrontEnd/styles.css">
 </head>
 <body>
@@ -12,7 +12,7 @@
             <div class="logo">
                 <a href="index.html">
                     <img src="./images/logo.PNG" alt="Logo">
-                  </a>
+                </a>
             </div>
             <nav>
                 <ul>
@@ -20,20 +20,19 @@
                     <li><a href="medications.html">Medications</a></li>
                 </ul>
             </nav>
-         </div>
+        </div>
     </header>
     <hr>
     <main>
-        <section class="list-section">
-            <div class="list">PET LIST</div>
-            <a href="add-pet.html"><button id="add-btn" class="addBtn">ADD PET</button></a>
-        </section>
-        <div id="product-wrapper" class="product-wrapper"></div>
+        <div class="input-wrapper">
+            <input id="medication-id-input" class="medication-id-input" placeholder="Medication ID">
+            <!-- <input id="pet-id-input" class="pet-id-input" placeholder="Pet ID"> -->
+            <input id="comment-input" class="comment-input" placeholder="Comment">
+            <button id="addPrescriptionBtn" class="addBtn">Add Prescription</button>
+        </div>
         <div id="message" class="message"></div>
-
     </main>
     <footer>Copyright &copy VetBee 2023 All rights reserved </footer>
-
-    <script type="module" src="index.js"></script>
+    <script type="module" src="add-prescription.js"></script>
 </body>
 </html>

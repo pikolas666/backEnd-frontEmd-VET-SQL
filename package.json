@@ -13,5 +13,11 @@
   "scripts": {
     "dev": "nodemon ./BackEnd/index.js",
     "start": "node ./BackEnd/index.js"
-  }
+  },
+  "name": "nodejs-frontend---vet-postgresql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

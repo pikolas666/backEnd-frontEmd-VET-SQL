@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Add Log</title>
     <link rel="stylesheet" href="/FrontEnd/styles.css">
 </head>
 <body>
@@ -12,7 +12,7 @@
             <div class="logo">
                 <a href="index.html">
                     <img src="./images/logo.PNG" alt="Logo">
-                  </a>
+                </a>
             </div>
             <nav>
                 <ul>
@@ -20,20 +20,17 @@
                     <li><a href="medications.html">Medications</a></li>
                 </ul>
             </nav>
-         </div>
+        </div>
     </header>
     <hr>
     <main>
-        <section class="list-section">
-            <div class="list">PET LIST</div>
-            <a href="add-pet.html"><button id="add-btn" class="addBtn">ADD PET</button></a>
-        </section>
-        <div id="product-wrapper" class="product-wrapper"></div>
+        <div class="input-wrapper">
+            <input id="description-input" class="description-input" placeholder="Description">
+            <button id="addLogBtn" class="addBtn">Add Log</button>
+        </div>
         <div id="message" class="message"></div>
-
     </main>
     <footer>Copyright &copy VetBee 2023 All rights reserved </footer>
-
-    <script type="module" src="index.js"></script>
+    <script type="module" src="add-log.js"></script>
 </body>
 </html>
